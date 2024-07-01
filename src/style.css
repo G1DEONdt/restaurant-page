@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('press-start-2p.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P';
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    color: white;
+    font-size: 1.2em;
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+nav button {
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav button:hover {
+    background-color: aquamarine;
+    color: white;
+}
+
+.content {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h2 {
+    font-size: 3em;
+}
+
+.content p {
+    font-size: 1em;
+    text-align: center;
+}
+
+.quote {
+    padding: 24px 0px;
+    font-style: italic;
+    line-height: 2;
+    letter-spacing: 3px;
+}
